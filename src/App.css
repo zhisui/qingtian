@@ -41,6 +41,12 @@ body {
   vertical-align: middle;
 }
 
+@media screen and (min-width:480px) and (max-width: 640px){
+  .comment-card{
+      width: 800px
+  }
+}
+
 .grid-item .avatar {
   width: 60px;
   height: 60px;

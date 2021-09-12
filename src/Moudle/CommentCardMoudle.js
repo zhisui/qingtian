@@ -51,9 +51,9 @@ function CommentCardMoudle() {
     })
 
     const sizeOpt = [
-      { columns: 2, gutter: 10 },
-      { mq: '480px', columns: 3, gutter: 15},
-      { mq: '640px', columns: 3, gutter: 15 },
+      { columns: 2, gutter: 20 },
+      { mq: '480px', columns: 3, gutter: 20},
+      { mq: '640px', columns: 3, gutter: 20 },
       { mq: '1000px', columns: 3, gutter: 12 },
       { mq: '1130px', columns: 4, gutter: 10},
     ]

@@ -21,9 +21,14 @@ function App() {
           style={{ width: 800, height: 500 }}
         />
       </div>
+      <div className = 'comment-card'>
       <CommentCardMoudle/>
+      </div>
+
       <h2 className="subtitle">那些年的说说</h2>
+      <div className = 'qq'>
       <QqMoudle/>
+      </div>
       <h2  className = "say">本来是想给你放个视频的，但我发现那视频下载不下来，好奇的话可以来问我是啥视频，嘿嘿。记得你以前给我的留言是：“ 努力的意义是今后的日子里有喜欢的人和事，还有最重要的就是开心。”这句话我一直记得， 我希望你以后的日子里不仅有你喜欢的人和事，还有喜欢你的人，不恐惧不害怕，勇敢面对。因为你，因为你们，让我变得勇敢，即使会伤心，会受伤我也不会害怕，并且全力以赴。</h2>
       <h2  className = "say">谢谢你，谢谢你们陪我长大，24岁生日快乐！！！！！</h2>
     </div>

@@ -11,7 +11,7 @@ import CardActions from '@material-ui/core/CardActions';
 const useStyle  = makeStyles ( (theme) => ({
   root: {
   width: 350,
-  margin: 28
+  margin: 15
   },
   media: {
     height: 0,
@@ -24,7 +24,7 @@ const useStyle  = makeStyles ( (theme) => ({
     backgroundColor: "#bbdefb"
   },
   p: {
-    marginLeft: 10,
+    marginLeft: 8,
     paddingTop: 0,
     paddingBottom: -10,
     paddingLeft: 10,
