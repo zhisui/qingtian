@@ -9,7 +9,7 @@ function App() {
     <div className="App">
       <h1 className="title">专属于小姐姐的晴天哟 つ♡⊂ ~</h1>
       <h3 className="tips">tips: 一定要边播放视频边往下翻哦 ~,戴上耳机就更好了</h3>
-      <div style={{ textAlign: 'center' }}>
+      {/* <div style={{ textAlign: 'center' }}>
         <iframe
         title="晴天"
           src="//player.bilibili.com/player.html?aid=328746951&bvid=BV1VA411e7PM&cid=208118542&page=1"
@@ -20,7 +20,7 @@ function App() {
           allowfullscreen="true"
           style={{ width: 800, height: 500 }}
         />
-      </div>
+      </div> */}
       <div className = 'comment-card'>
       <CommentCardMoudle/>
       </div>

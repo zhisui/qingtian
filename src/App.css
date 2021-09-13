@@ -17,7 +17,9 @@ body {
 
 }
 .App {
-  padding: 2rem;
+  /* padding: 2rem;
+  margin: 5rem； */
+  width: 90%;
 }
 
 .title {
@@ -29,7 +31,7 @@ body {
  .tips{
   margin-top: -20px;
   font-size: 2.2rem;
-  margin-left: 34rem;
+  margin-left: 29rem;
 
 }
 .subtitle {
@@ -117,5 +119,7 @@ body {
   margin-bottom: 10rem;
 }
 
-
+.comment-list{
+  width: 100%
+}
 
