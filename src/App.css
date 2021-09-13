@@ -119,7 +119,7 @@ body {
   margin-bottom: 10rem;
 }
 
-.comment-list{
-  width: 100%
+.comment-card, .qq{
+  width: 90%
 }
 

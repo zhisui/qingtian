@@ -7,9 +7,9 @@ export  default function QqMoudle (){
   useEffect(() => {
     const sizeOpt = [
       { columns: 1, gutter: 10 },
-      { mq: '4rem', columns: 1, gutter: 10 },
-      { mq: '8rem', columns: 2, gutter: 12},
-      { mq: '15rem', columns: 4, gutter: 12},
+      { mq: '2rem', columns: 1, gutter: 10},
+      { mq: '4rem', columns: 2, gutter: 12},
+      { mq: '10rem', columns: 4, gutter: 12},
       { mq: '20rem', columns: 3, gutter: 12},
     ]
 
