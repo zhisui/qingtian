@@ -7,10 +7,10 @@ export  default function QqMoudle (){
   useEffect(() => {
     const sizeOpt = [
       { columns: 1, gutter: 10 },
-      { mq: '4rem', columns: 1, gutter: 10 },
-      { mq: '8rem', columns: 2, gutter: 10 },
-      { mq: '15rem', columns: 4, gutter: 15 },
-      { mq: '20rem', columns: 3, gutter: 18},
+      { mq: '4rem', columns: 1, gutter: 12 },
+      { mq: '8rem', columns: 2, gutter: 15 },
+      { mq: '15rem', columns: 4, gutter: 13},
+      { mq: '20rem', columns: 3, gutter: 14},
     ]
 
     //Bricks是一个瀑布流插件
