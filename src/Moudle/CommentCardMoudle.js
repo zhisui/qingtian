@@ -52,10 +52,10 @@ function CommentCardMoudle() {
 
     const sizeOpt = [
       { columns: 2, gutter: 20 },
-      { mq: '480px', columns: 3, gutter: 20},
-      { mq: '640px', columns: 3, gutter: 20 },
-      { mq: '1000px', columns: 3, gutter: 12 },
-      { mq: '1130px', columns: 4, gutter: 10},
+      { mq: '5rem', columns: 2, gutter: 15},
+      { mq: '10rem', columns: 3, gutter: 20 },
+      { mq: '14rem', columns: 4, gutter: 15 },
+      { mq: '35rem', columns: 4, gutter: 12},
     ]
 
     //Bricks是一个瀑布流插件

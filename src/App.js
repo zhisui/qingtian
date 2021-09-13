@@ -8,7 +8,7 @@ function App() {
   return (
     <div className="App">
       <h1 className="title">专属于小姐姐的晴天哟 つ♡⊂ ~</h1>
-      <h3 className="title h3">tips: 一定要边播放视频边往下翻哦 ~</h3>
+      <h3 className="tips">tips: 一定要边播放视频边往下翻哦 ~,戴上耳机就更好了</h3>
       <div style={{ textAlign: 'center' }}>
         <iframe
         title="晴天"

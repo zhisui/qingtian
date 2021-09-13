@@ -10,27 +10,37 @@ import CardActions from '@material-ui/core/CardActions';
 
 const useStyle  = makeStyles ( (theme) => ({
   root: {
-  width: 350,
-  margin: 15
+  width: "39rem",
+  margin: "0.9rem",
+  fontSize: "1.6rem"
   },
   media: {
     height: 0,
     paddingTop: '56.25%'
   },
   love: {
-    color: "#f44336"
+    color: "#f44336",
+    fontSize: '2.5rem'
   },
   avatar: {
-    backgroundColor: "#bbdefb"
+    backgroundColor: "#bbdefb",
+    fontSize: '2.3rem'
   },
   p: {
     marginLeft: 8,
-    paddingTop: 0,
     paddingBottom: -10,
     paddingLeft: 10,
     paddingRight: 10,
-
+    lineHeight: "3rem"
+  },
+  span: {
+    fontSize: '2.3rem'
+  },
+  head: {
+    fontSize: '2.3rem'
   }
+
+
 }))
 
 export default function Qq({date, src, content}) {
@@ -41,14 +51,15 @@ export default function Qq({date, src, content}) {
   },[count])
   return (
     <Card className = {classes.root}>
-      <CardHeader
+      <CardHeader  className = {classes.head}
         avatar={
           <Avatar alt="Cindy Baker" src="public\头像.jpg" className={classes.avatar} >
               R
           </Avatar>
         }
-        title=" 寄居者"
+        title= " 寄居者"
         subheader={date}
+
       />
       <p className = {classes.p}> {content}</p>
       <CardMedia
@@ -59,7 +70,7 @@ export default function Qq({date, src, content}) {
       <CardActions disableSpacing>
       <IconButton aria-label="add to favorites" onClick= {onClick}>
           <FavoriteIcon  className={classes.love}/>
-          <span>{count}</span>
+          <span className={classes.span}>{count}</span>
         </IconButton>
       </CardActions>
 
