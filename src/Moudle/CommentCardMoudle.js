@@ -54,7 +54,7 @@ function CommentCardMoudle() {
       { columns: 2, gutter: 20 },
       { mq: '5rem', columns: 2, gutter: 10},
       { mq: '8rem', columns: 2, gutter: 10},
-      { mq: '14rem', columns: 4, gutter: 10 },
+      { mq: '14rem', columns: 3, gutter: 10 },
       { mq: '35rem', columns: 4, gutter: 12},
     ]
 
