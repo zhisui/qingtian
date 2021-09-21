@@ -9,8 +9,8 @@ export  default function QqMoudle (){
       { columns: 1, gutter: 10 },
       { mq: '2rem', columns: 1, gutter: 10},
       { mq: '4rem', columns: 2, gutter: 12},
-      { mq: '10rem', columns: 4, gutter: 12},
-      { mq: '20rem', columns: 3, gutter: 12},
+      { mq: '10rem', columns: 3, gutter: 18},
+      { mq: '20rem', columns: 3, gutter: 15},
     ]
 
     //Bricks是一个瀑布流插件
@@ -28,6 +28,7 @@ export  default function QqMoudle (){
       data.map(({ src, content, date, id}) => (
         <Qq
         key = {id}
+        keyvalue= {id}
         src={src}
         content = {content}
         date = {date}

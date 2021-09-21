@@ -28,7 +28,7 @@ function CommentCardMoudle() {
   const loadMore = useCallback(() => {
     if (loading.current) return void 0
     loading.current = true
-    getData(25, 2017167 - page * 50)
+    getData(45, 2017167 - page * 50)
       .then((data) => {
         setComments(comments.concat(data.comments))
         page === 1 ? commentInst.pack() : commentInst.update()
@@ -54,8 +54,8 @@ function CommentCardMoudle() {
       { columns: 2, gutter: 20 },
       { mq: '5rem', columns: 2, gutter: 10},
       { mq: '8rem', columns: 2, gutter: 10},
-      { mq: '14rem', columns: 3, gutter: 10 },
-      { mq: '35rem', columns: 4, gutter: 12},
+      { mq: '14rem', columns: 4, gutter: 12 },
+      { mq: '35rem', columns: 4, gutter: 13},
     ]
 
     //Bricks是一个瀑布流插件
@@ -105,7 +105,7 @@ function CommentCardMoudle() {
   {/* 加载更多按钮 */}
   <div className="load-more">
 
-    <Button variant="contained" color="primary" style={{fontSize: 18, backgroundColor : "#990066"}} disableElevation onClick={loadMore}>
+    <Button variant="contained" color="primary" style={{fontSize: '2.5rem', marginBottom: '2rem',marginLeft: '-25rem', backgroundColor : "#990066"}} disableElevation onClick={loadMore}>
     {loading.current ? '...' : '敢不敢点我一下ʕʘ̅͜ʘ̅ʔ '}
      </Button>
   </div>

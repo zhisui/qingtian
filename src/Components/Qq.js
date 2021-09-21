@@ -10,9 +10,9 @@ import CardActions from '@material-ui/core/CardActions';
 
 const useStyle  = makeStyles ( (theme) => ({
   root: {
-  width: "39rem",
-  margin: "0.9rem",
-  fontSize: "1.6rem"
+  width: "47rem",
+  margin: "1.5rem",
+  fontSize: "2rem"
   },
   media: {
     height: 0,
@@ -34,21 +34,26 @@ const useStyle  = makeStyles ( (theme) => ({
     lineHeight: "3rem"
   },
   span: {
-    fontSize: '2.3rem'
+    fontSize: '3rem'
   },
   head: {
-    fontSize: '2.3rem'
+    fontSize: '3rem'
   }
 
 
 }))
 
-export default function Qq({date, src, content}) {
+export default function Qq({date, src, content,keyvalue}) {
   const classes = useStyle();
-  const [count, setCount] = useState(0)
+  const [count, setCount] = useState(parseInt(localStorage.getItem(`${keyvalue}`)) || 0)
+
   const onClick  = useCallback( () => {
-    setCount(count + 1)
-  },[count])
+    setCount(count => {
+      count = count + 1
+      localStorage.setItem(`${keyvalue}`,count.toString())
+      return count
+    })
+  },[keyvalue])
   return (
     <Card className = {classes.root}>
       <CardHeader  className = {classes.head}
@@ -57,10 +62,10 @@ export default function Qq({date, src, content}) {
               R
           </Avatar>
         }
-        title= " 寄居者"
+        title =" 寄居者"
         subheader={date}
-
       />
+
       <p className = {classes.p}> {content}</p>
       <CardMedia
         className={classes.media}
