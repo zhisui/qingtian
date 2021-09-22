@@ -10,9 +10,9 @@ import CardActions from '@material-ui/core/CardActions';
 
 const useStyle  = makeStyles ( (theme) => ({
   root: {
-  width: "47rem",
-  margin: "1.5rem",
-  fontSize: "2rem"
+  width: "470px",
+  margin: "15px",
+  fontSize: "20px"
   },
   media: {
     height: 0,
@@ -20,25 +20,23 @@ const useStyle  = makeStyles ( (theme) => ({
   },
   love: {
     color: "#f44336",
-    fontSize: '2.5rem'
+    fontSize: '25px'
   },
   avatar: {
     backgroundColor: "#bbdefb",
-    fontSize: '2.3rem'
+    fontSize: '23px'
   },
   p: {
     marginLeft: 8,
     paddingBottom: -10,
     paddingLeft: 10,
     paddingRight: 10,
-    lineHeight: "3rem"
+    lineHeight: "30px"
   },
   span: {
-    fontSize: '3rem'
+    fontSize: '25px'
   },
-  head: {
-    fontSize: '3rem'
-  }
+
 
 
 }))
@@ -56,7 +54,7 @@ export default function Qq({date, src, content,keyvalue}) {
   },[keyvalue])
   return (
     <Card className = {classes.root}>
-      <CardHeader  className = {classes.head}
+      <CardHeader
         avatar={
           <Avatar alt="Cindy Baker" src="public\头像.jpg" className={classes.avatar} >
               R

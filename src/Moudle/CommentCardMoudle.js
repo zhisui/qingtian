@@ -52,10 +52,10 @@ function CommentCardMoudle() {
 
     const sizeOpt = [
       { columns: 2, gutter: 20 },
-      { mq: '5rem', columns: 2, gutter: 10},
-      { mq: '8rem', columns: 2, gutter: 10},
-      { mq: '14rem', columns: 4, gutter: 12 },
-      { mq: '35rem', columns: 4, gutter: 13},
+      { mq: '100px', columns: 2, gutter: 10},
+      { mq: '250px', columns: 2, gutter: 10},
+      { mq: '600px', columns: 4, gutter: 12 },
+      { mq: '1250px', columns: 4, gutter: 13},
     ]
 
     //Bricks是一个瀑布流插件
@@ -105,7 +105,7 @@ function CommentCardMoudle() {
   {/* 加载更多按钮 */}
   <div className="load-more">
 
-    <Button variant="contained" color="primary" style={{fontSize: '2.5rem', marginBottom: '2rem',marginLeft: '-25rem', backgroundColor : "#990066"}} disableElevation onClick={loadMore}>
+    <Button variant="contained" color="primary" style={{fontSize: '25px', marginBottom: '20px',marginLeft: '-250px', backgroundColor : "#990066"}} disableElevation onClick={loadMore}>
     {loading.current ? '...' : '敢不敢点我一下ʕʘ̅͜ʘ̅ʔ '}
      </Button>
   </div>

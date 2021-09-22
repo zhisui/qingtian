@@ -20,7 +20,7 @@ function App() {
           frameborder="no"
           framespacing="0"
           allowfullscreen="true"
-          style={{ width: '90rem', height: '60rem' }}
+          style={{ width: '900px', height: '600px' }}
         />
       </div>
       <div className = 'comment-card'>
