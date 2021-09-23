@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/qingtian/static/css/main.77230802.chunk.css",
+    "main.css": "/qingtian/static/css/main.ad1ab7ad.chunk.css",
     "main.js": "/qingtian/static/js/main.fdf4236d.chunk.js",
     "main.js.map": "/qingtian/static/js/main.fdf4236d.chunk.js.map",
     "runtime-main.js": "/qingtian/static/js/runtime-main.6f20ca91.js",
@@ -8,13 +8,13 @@
     "static/js/2.803b9725.chunk.js": "/qingtian/static/js/2.803b9725.chunk.js",
     "static/js/2.803b9725.chunk.js.map": "/qingtian/static/js/2.803b9725.chunk.js.map",
     "index.html": "/qingtian/index.html",
-    "static/css/main.77230802.chunk.css.map": "/qingtian/static/css/main.77230802.chunk.css.map",
+    "static/css/main.ad1ab7ad.chunk.css.map": "/qingtian/static/css/main.ad1ab7ad.chunk.css.map",
     "static/js/2.803b9725.chunk.js.LICENSE.txt": "/qingtian/static/js/2.803b9725.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.6f20ca91.js",
     "static/js/2.803b9725.chunk.js",
-    "static/css/main.77230802.chunk.css",
+    "static/css/main.ad1ab7ad.chunk.css",
     "static/js/main.fdf4236d.chunk.js"
   ]
 }
