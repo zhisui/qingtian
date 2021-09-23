@@ -10,8 +10,7 @@ import CardActions from '@material-ui/core/CardActions';
 
 const useStyle  = makeStyles ( (theme) => ({
   root: {
-  width: "470px",
-  margin: "15px",
+  width: "480px",
   fontSize: "20px"
   },
   media: {

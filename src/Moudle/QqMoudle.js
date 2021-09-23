@@ -6,11 +6,9 @@ export  default function QqMoudle (){
 
   useEffect(() => {
     const sizeOpt = [
-      { columns: 1, gutter: 10 },
-      { mq: '150', columns: 1, gutter: 10},
-      { mq: '600px', columns: 3, gutter: 15},
-      { mq: '750px', columns: 3, gutter: 15},
-      { mq: '1250px', columns: 3, gutter: 15},
+      { columns: 2, gutter: 10 },
+      { mq: '768px', columns: 1, gutter: 14},
+      { mq: '1024px', columns: 3, gutter: 14},
     ]
 
     //Bricks是一个瀑布流插件
