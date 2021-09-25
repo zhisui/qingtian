@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/qingtian/static/css/main.ad1ab7ad.chunk.css",
-    "main.js": "/qingtian/static/js/main.fdf4236d.chunk.js",
-    "main.js.map": "/qingtian/static/js/main.fdf4236d.chunk.js.map",
+    "main.css": "/qingtian/static/css/main.d412acaa.chunk.css",
+    "main.js": "/qingtian/static/js/main.dfaf8dfd.chunk.js",
+    "main.js.map": "/qingtian/static/js/main.dfaf8dfd.chunk.js.map",
     "runtime-main.js": "/qingtian/static/js/runtime-main.6f20ca91.js",
     "runtime-main.js.map": "/qingtian/static/js/runtime-main.6f20ca91.js.map",
     "static/js/2.803b9725.chunk.js": "/qingtian/static/js/2.803b9725.chunk.js",
     "static/js/2.803b9725.chunk.js.map": "/qingtian/static/js/2.803b9725.chunk.js.map",
     "index.html": "/qingtian/index.html",
-    "static/css/main.ad1ab7ad.chunk.css.map": "/qingtian/static/css/main.ad1ab7ad.chunk.css.map",
+    "static/css/main.d412acaa.chunk.css.map": "/qingtian/static/css/main.d412acaa.chunk.css.map",
     "static/js/2.803b9725.chunk.js.LICENSE.txt": "/qingtian/static/js/2.803b9725.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.6f20ca91.js",
     "static/js/2.803b9725.chunk.js",
-    "static/css/main.ad1ab7ad.chunk.css",
-    "static/js/main.fdf4236d.chunk.js"
+    "static/css/main.d412acaa.chunk.css",
+    "static/js/main.dfaf8dfd.chunk.js"
   ]
 }
