@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/qingtian/static/css/main.d412acaa.chunk.css",
-    "main.js": "/qingtian/static/js/main.dfaf8dfd.chunk.js",
-    "main.js.map": "/qingtian/static/js/main.dfaf8dfd.chunk.js.map",
+    "main.js": "/qingtian/static/js/main.493a2024.chunk.js",
+    "main.js.map": "/qingtian/static/js/main.493a2024.chunk.js.map",
     "runtime-main.js": "/qingtian/static/js/runtime-main.6f20ca91.js",
     "runtime-main.js.map": "/qingtian/static/js/runtime-main.6f20ca91.js.map",
     "static/js/2.803b9725.chunk.js": "/qingtian/static/js/2.803b9725.chunk.js",
@@ -15,6 +15,6 @@
     "static/js/runtime-main.6f20ca91.js",
     "static/js/2.803b9725.chunk.js",
     "static/css/main.d412acaa.chunk.css",
-    "static/js/main.dfaf8dfd.chunk.js"
+    "static/js/main.493a2024.chunk.js"
   ]
 }
