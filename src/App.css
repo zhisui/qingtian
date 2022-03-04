@@ -1,21 +1,18 @@
-
+html{
+  font-size: 62.5%;
+}
 body {
   background-color: #cd353b;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
     width: 100vw;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-     justify-content: center;
-     color: #fff;
-     overflow-x: hidden;
+    color:white;
 
 
 }
 .App {
-    padding: 20px;
+    padding: 2rem;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -24,42 +21,43 @@ body {
 
 .title {
   text-align: center;
-  font-size: 40px;
+  font-size: 2.56rem;
   position: relative;
 }
 .h2{
   text-align: center;
   margin-top: -20px;
   margin-bottom: 20px;
+  font-size: 1.6rem;
 }
 
 
 
 .subtitle {
-  border-left: 6px solid #fff;
-  padding-left: 10px;
+  border-left: 0.8rem solid #fff;
+  padding-left: 1rem;
   color: #eee;
-  font-size: 30px;
-  margin-top: 180px;
-  margin-left: -1300px;
+  font-size: 2.5rem;
+  margin-top: 18rem;
+  margin-left: -100rem;
 }
 .grid-item {
   cursor: pointer;
-  width: 330px;
+  width: 25rem;
   border-radius: 4px;
-  padding: 20px 20px 20px 10px;
+  padding: 2rem 2rem 2rem 1rem;
   overflow: auto;
   box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2),
     0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
   vertical-align: middle;
-  font-size: 18px;
-  line-height: 26px;
+  font-size: 1.6rem;
+  line-height: 2.6rem;
 }
 
 
 .grid-item .avatar {
-  width: 60px;
-  height: 60px;
+  width: 6rem;
+  height: 6rem;
   background-color: #eee;
   display: block;
   border-radius: 50%;
@@ -71,59 +69,78 @@ body {
 }
 .grid-item .content {
   color: #333;
- margin-left: 80px;
+ margin-left: 8rem;
   /* text-indent: 2em; */
 }
 .grid-item .nickname {
   color: #999;
-  font-size: 15px;
+  font-size: 1.5rem;
   text-align: right;
-  padding-top: 6px;
+  padding-top: 0.6rem;
 }
 
 .grid-item .time {
   color: #aaa;
-  font-size: 14px;
+  font-size: 1.5rem;
   text-align: right;
-  padding-top: 2px;
+  padding-top: 0.2rem;
 }
 
 .load-more {
-  margin-top: 80px;
-  margin-bottom: 80px;
+  margin-top: 8rem;
+  margin-bottom: 8rem;
   text-align: center;
-  margin-left: 200px;
+  margin-left: 20rem;
+  font-size: 2rem;
 }
 
 #hot-comment-list
 {
-width: 1500px !important;
+/* width: 1500px !important; */
 }
 
 #qq-item{
-  width: 1500px !important;
+  /* width: 1500px !important; */
 }
 
 @media screen and (max-width: 767.98px) {
   #hot-comment-list {
-    width: 96vw;
+    width: 60rem;
   }
 }
 @media screen and (max-width: 767.98px) {
   #qq-item {
-    width: 96vw;
+    width: 60rem;
+  };
+
+  @media screen and (max-width: 767.98px){
+    .grid-item{
+      width: 18rem;
+      font-size: 1.4rem;
+    };
   }
+
+  @media screen and (max-width: 767.98px){
+    iframe{
+      width:40rem;
+      height: 30rem;
+    };
+
+  }
+
+
+
 }
 
 
 .say {
-  margin-top: 140px;
+  margin-top: 8rem;
   color: white;
-  width: 93%;
-  margin-bottom: 100px;
-  line-height: 50px;
+  width: 80%;
+  margin-bottom: 23rem;
+  line-height: 4rem;
   font-weight: 500;
-  font-size: 23px;
+  font-size: 1.6rem;
 
 }
 
@@ -133,5 +150,12 @@ width: 1500px !important;
 }
 #qq-item{
 
+}
+.ifram{
+  position: absolute;
+  width:900px;
+  left: 0;
+  right:0;
+  margin:0 auto;
 }
 

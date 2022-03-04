@@ -10,8 +10,8 @@ import CardActions from '@material-ui/core/CardActions';
 
 const useStyle  = makeStyles ( (theme) => ({
   root: {
-  width: "480px",
-  fontSize: "20px"
+  width: "37rem",
+  fontSize: "1.6rem"
   },
   media: {
     height: 0,
@@ -19,7 +19,7 @@ const useStyle  = makeStyles ( (theme) => ({
   },
   love: {
     color: "#f44336",
-    fontSize: '25px'
+    fontSize: '2rem'
   },
   avatar: {
     backgroundColor: "#bbdefb",
@@ -27,16 +27,14 @@ const useStyle  = makeStyles ( (theme) => ({
   },
   p: {
     marginLeft: 8,
-    paddingBottom: -10,
+    marginTop:'-1rem',
     paddingLeft: 10,
     paddingRight: 10,
-    lineHeight: "30px"
+    lineHeight: "3rem"
   },
   span: {
-    fontSize: '25px'
+    fontSize: '2rem'
   },
-
-
 
 }))
 
